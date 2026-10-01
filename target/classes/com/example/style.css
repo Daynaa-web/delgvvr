@@ -1,0 +1,18 @@
+.root-bg { -fx-background-color: #f4f5f7; -fx-font-family: "Segoe UI", "Arial"; -fx-font-size: 14px; }
+.card { -fx-background-color: white; -fx-background-radius: 10; -fx-border-color: #e2e4e9; -fx-border-radius: 10; }
+.topbar { -fx-background-color: white; -fx-border-color: #e2e4e9; -fx-border-width: 0 0 1 0; }
+.title { -fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #1f2933; }
+.muted { -fx-text-fill: #6b7280; }
+.total { -fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #1f2933; }
+
+.text-field, .password-field { -fx-background-radius: 6; -fx-border-radius: 6; -fx-border-color: #d0d4db; -fx-background-color: white; -fx-padding: 8 10; }
+.text-field:focused, .password-field:focused { -fx-border-color: #2563eb; }
+
+.button { -fx-background-color: #e5e7eb; -fx-text-fill: #1f2933; -fx-background-radius: 6; -fx-padding: 8 16; -fx-cursor: hand; }
+.button:hover { -fx-background-color: #d5d8de; }
+.button.primary { -fx-background-color: #2563eb; -fx-text-fill: white; }
+.button.primary:hover { -fx-background-color: #1d4ed8; }
+
+.table-view { -fx-background-color: white; -fx-border-color: #e2e4e9; -fx-border-radius: 6; -fx-background-radius: 6; }
+.table-view .column-header-background { -fx-background-color: #f9fafb; }
+.table-view .column-header .label { -fx-font-weight: bold; -fx-text-fill: #374151; }

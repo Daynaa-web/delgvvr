@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="com.example.LoginController" styleClass="root-bg">
+    <VBox alignment="CENTER" spacing="14" maxWidth="300" maxHeight="-Infinity" styleClass="card">
+        <padding>
+            <Insets top="28" right="28" bottom="28" left="28"/>
+        </padding>
+        <Label text="Нэвтрэх" styleClass="title"/>
+        <Label text="Дэлгүүрийн системд тавтай морил" styleClass="muted"/>
+        <TextField fx:id="usernameField" promptText="Нэвтрэх нэр"/>
+        <PasswordField fx:id="passwordField" promptText="Нууц үг" onAction="#handleLogin"/>
+        <Button text="Нэвтрэх" onAction="#handleLogin" maxWidth="Infinity" defaultButton="true" styleClass="primary"/>
+        <Button text="Бүртгүүлэх" onAction="#handleGoRegister" maxWidth="Infinity"/>
+    </VBox>
+</StackPane>
